@@ -13,7 +13,7 @@ https://docs.djangoproject.com/en/5.0/ref/settings/
 from pathlib import Path
 import os
 
-APP_NAME = os.environ.get("marriage_photography - user registration and authentication")
+#APP_NAME = os.environ.get("marriage_photography - user registration and authentication")
 
 
 
@@ -31,7 +31,7 @@ SECRET_KEY = 'django-insecure-v=)yjo%dy)7w@4fbw-gp#c8s(yj55nqj@8*5^5fe^em+c7^arq
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['192.168.1.5','127.0.0.1', 'localhost',f"{APP_NAME}.fly.dev"]
+ALLOWED_HOSTS = ['192.168.1.5','127.0.0.1', 'localhost']
 
 # Application definition
 
