@@ -149,3 +149,4 @@ VERIFICATION_CODE = '000000'
 
 MEDIA_URL = '/Media_Storage/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'Media_Storage')
+STATIC_ROOT = STATIC_URL
